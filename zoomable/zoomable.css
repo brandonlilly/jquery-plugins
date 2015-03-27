@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+.zoomable {
+  width: 500px;
+  position: relative;
+  float:left;
+}
+
+.zoomable img {
+  width: 100%;
+}
+
+.focus-box {
+  position: absolute;
+  outline: 2px solid lightyellow;
+}
+
+div.zoomed-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  float:left;
+}

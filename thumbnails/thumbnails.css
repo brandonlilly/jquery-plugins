@@ -1,0 +1,42 @@
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.active img {
+  width: 100%;
+}
+
+div.thumbnails {
+  width: 400px;
+}
+
+.gutter {
+  position: relative;
+  display: block;
+}
+
+.gutter-images {
+  position: relative;
+  width: 90%;
+  left: 5%;
+}
+
+.gutter-images img {
+  width: 20%;;
+}
+
+a.nav {
+  text-decoration: none;
+  font-size: 36px;
+  position: absolute;
+  display: block;
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a.nav:last-child {
+  left: 95%;
+}

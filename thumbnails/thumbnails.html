@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thumbnails</title>
+  <script src="./jquery-2.1.3.min.js"></script>
+    <script src="./thumbnails.js"></script>
+    <link href="./thumbnails.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="thumbnails">
+    <div class="active"></div>
+
+    <div class="gutter clearfix">
+      <a class="nav nav-left" href="javascript:void(0)">&lt;</a>
+      <div class="gutter-images clearfix">
+        <img src="imgs/001.png" alt="">
+        <img src="imgs/002.png" alt="">
+        <img src="imgs/005.png" alt="">
+        <img src="imgs/006.png" alt="">
+        <img src="imgs/007.png" alt="">
+        <img src="imgs/008.png" alt="">
+        <img src="imgs/009.png" alt="">
+        <img src="imgs/025.png" alt="">
+        <img src="imgs/108.png" alt="">
+        <img src="imgs/109.png" alt="">
+        <img src="imgs/143.png" alt="">
+      </div>
+      <a class="nav nav-right" href="javascript:void(0)">&gt;</a>
+    </div>
+  </div>
+
+  <script>
+      $(function() {
+        $('.thumbnails').thumbnails();
+
+      });
+    </script>
+</body>
+</html>
